@@ -13,7 +13,7 @@ class ButtonFrame extends Component{
             case "true":
                 button =(
                     <button className="btn btn-success btn-lg" >
-                        <span className="glyphicon glyphicon-ok"></span>
+                        <span className="glyphicon glyphicon-ok" onClick={this.props.acceptAnswer}></span>
                     </button>
                 )
                 break;
@@ -32,6 +32,10 @@ class ButtonFrame extends Component{
         return(
             <div id="button-frame">
                 {button}
+                <br/>
+                <button className="btn btn-warning" onClick={this.props.redraw}>
+                    <span className="glyphicon glyphicon-refresh">{this.props.leftRedraw}</span>
+                </button>
             </div>
         )
     }

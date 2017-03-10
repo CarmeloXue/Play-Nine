@@ -8,7 +8,6 @@ class AnswerFrame extends Component{
 
 
     render(){
-        console.log(this.props)
         var props = this.props;
         var numbers = this.props.currentAnswers.map(function (value,index) {
             return (

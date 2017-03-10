@@ -13,6 +13,7 @@
     float: left;
     height: 200px;
 }
+
 #button-frame{
     text-align: center;
     display: inline-block;
@@ -62,4 +63,20 @@
     background-color: lightgray;
     border-radius: 50%;
     cursor: pointer;
+}
+
+#numbers-frame .used{
+    text-align: center;
+    display: inline-block;
+    margin: 0.5em;
+    color: rgba(51, 51, 51, 0.52);
+    font-size: large;
+    width: 25px;
+    background-color: #5ff314;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#bottom-frame{
+    text-align: center;
 }
